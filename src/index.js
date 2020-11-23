@@ -1,10 +1,9 @@
-const express = require('express')
-const app = express()
-const morgan = require('morgan')
-const port = 3000
+const express = require('express');
+const app = express();
+const morgan = require('morgan');
+const port = 3000;
 const exphbs  = require('express-handlebars');
-const path = require('path')
-const sass = require('node-sass');
+const path = require('path');
 
 
 app.use(express.static(path.join(__dirname,'public')))
